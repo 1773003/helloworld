@@ -8,20 +8,22 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-        Simply adding two numbers!<br />
-        <br />
-        <asp:TextBox ID="txtNo1" runat="server"></asp:TextBox>
-        <br />
-        +<br />
-        <asp:TextBox ID="txtNo2" runat="server"></asp:TextBox>
-        <br />
-        <asp:Button ID="btnEquals" runat="server" onclick="btnEquals_Click" Text="=" />
-        <br />
-        <asp:Label ID="lblResult" runat="server"></asp:Label>
-        <br />
-        <br />
-        WOW!</div>
+        <div>
+            Simply adding two numbers!<br />
+            <br />
+            <asp:TextBox ID="txtNo1" runat="server"></asp:TextBox>
+            <br />
+            +<br />
+            <asp:TextBox ID="txtNo2" runat="server"></asp:TextBox>
+            <br />
+            <asp:Button ID="btnEquals" runat="server" onclick="btnEquals_Click" Text="=" />
+            <br />
+            <asp:Label ID="lblResult" runat="server"></asp:Label>
+            <br />
+            <br />
+            WOW!
+        
+        </div>
     </form>
 </body>
 </html>
