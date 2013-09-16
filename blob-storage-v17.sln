@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blob-storage-v17", "blob-storage-v17\blob-storage-v17.csproj", "{1CBE6D8E-05A5-411F-84A9-9FE0FBFC84EF}"
+EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "blob-storage-v17.Azure", "blob-storage-v17.Azure\blob-storage-v17.Azure.ccproj", "{5F918F99-60DF-45A1-8C29-6E11478AD304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CBE6D8E-05A5-411F-84A9-9FE0FBFC84EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CBE6D8E-05A5-411F-84A9-9FE0FBFC84EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CBE6D8E-05A5-411F-84A9-9FE0FBFC84EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CBE6D8E-05A5-411F-84A9-9FE0FBFC84EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F918F99-60DF-45A1-8C29-6E11478AD304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F918F99-60DF-45A1-8C29-6E11478AD304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F918F99-60DF-45A1-8C29-6E11478AD304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F918F99-60DF-45A1-8C29-6E11478AD304}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="blob_storage_v17.Azure" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-03.2.0">
+  <Role name="blob-storage-v17">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="devString" value="UseDevelopmentStorage=true" />
+      <Setting name="cloudString" value="DefaultEndpointsProtocol=https;AccountName=1773003;AccountKey=rfzsyO3unZuu7b3b2wqlQKjju9bFLxoXZ0bNQxsfwKVZfynt1QeRtll1KaM+3GJJ1WJbVFb83QdYaAvnZHzjdw==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
